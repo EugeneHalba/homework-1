@@ -18,5 +18,6 @@ def get_days_from_today():
         #перевірка коректності вводу дати
         except ValueError :  
             print ("Input date in format: Year-Month-May, or write exit to end!")
-#виведення результату        
+#виведення результату 
+print ('hi')       
 print (get_days_from_today())
